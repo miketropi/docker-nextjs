@@ -1,9 +1,9 @@
-version: '3.8'
+version: '3'
 services:
   web:
     build:
       context: ./
-      target: runner
+      # target: runner
     volumes:
       - .:/app
     command: npm run dev
